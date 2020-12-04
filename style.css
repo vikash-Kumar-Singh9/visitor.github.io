@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Ovo&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+
+}
+.nav_style{
+    border: turquoise;
+    background: #fff;
+    box-shadow: 0 10px 300px 0 rgba(138, 155, 165, 0.15);
+}
+.navbar-brand{
+width: 80px;
+height: 50px;
+}
+.navbar-nav li a{
+    text-transform: unset;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: rgb(35, 157, 197);
+    position: relative;
+}
+.navbar-nav li a:before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    bottom: 50%;
+    width: 0%;
+    height: 3%;
+    background:#4a94d1;
+    transition: all 0.35 linear;
+}
+.navbar-nav li a:hover:before{
+    width: 80%;
+    
+}
+.navbar-nav li a:hover{
+    color:#2d92b1
+}
+bar-light.navbar-nav .nav-link.active{
+    color: #22678f ;
+}
+@media (max-width: width 998px)
+{
+    .navbar-nav{
+        margin-top: 0px!important;
+        text-align: center!important;
+    }
+}
+img {
+    display: inline-block;
+  }
+#bg{
+    background-image: url('home.jpg');
+    background-repeat: repeat-x;
+}
+ /* header */
+ 
+ .header_text{
+     font-weight: 400px;
+     font-size: 30px;
+     color: black;
+     margin-top: 50px;
+     text-shadow: wheat;
+ }
+ .spam_header_text{
+     color: cornflowerblue;
+ }
+ .header_text2{
+     font-size: 20px;
+     color:gray;
+ }
+ .schedule-a-demo{
+     color: white;
+     background: blue;
+     width: 160px;
+     height: 40px;
+     text-transform:unset;
+     outline: none;
+     border: none;
+     transition: all 0.3s linear;
+     border-radius: 15px;
+    text-shadow: 0ch;
+
+ }
+ 
+
+    /* sdgngdd */
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800|Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat',sans-serif;
+}
+.cards{
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+.cards h2.header{
+  font-size: 40px;
+  margin: 0 0 30px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.services{
+  display: flex;
+  align-items: center;
+}
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 4px;
+  transition: all .3s ease;
+}
+.content .fab{
+  font-size: 70px;
+  margin: 16px 0;
+}
+.content > *{
+  flex: 1 1 100%;
+}
+.content:hover{
+  color: white;
+}
+.content:hover a{
+  border-color: white;
+  background: white;
+}
+.content-1:hover{
+  border-color: #1DA1F2;
+  background: #1DA1F2;
+}
+.content-1:hover a{
+  color: #1DA1F2;
+}
+.content-2:hover{
+  border-color: #1DA1F2;
+  background: #1DA1F2;
+}
+.content-2:hover a{
+  color: #1DA1F2;
+}
+.content-3:hover{
+  border-color: #1DA1F2;
+  background: #1DA1F2;
+}
+.content-3:hover a{
+  color: #1DA1F2;
+}
+.content h2{
+  font-size: 30px;
+  margin: 16px 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.content p{
+  font-size: 17px;
+  font-family: 'Poppins',sans-serif;
+}
+.content a{
+  margin: 22px 0;
+  background: black;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid black;
+  padding: 15px 0;
+  border-radius: 25px;
+  transition: .3s ease;
+}
+.content a:hover{
+  border-radius: 4px;
+}
+@media (max-width: 900px) {
+  .services{
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* footer */
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+
